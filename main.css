@@ -1,0 +1,59 @@
+h1 {
+    font-size: 3em;
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+p {
+    text-align: center;
+}
+body {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    margin: 10;
+}
+form {
+    margin: 10;
+}
+
+.midden {
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+img {
+    height: 512px;
+    width: 512px;
+}
